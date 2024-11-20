@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "setNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"NumberStorage.sol": "NumberStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"NumberStorage.sol": {
+			"keccak256": "0xac1f7f690ddce2653195f6ad4dffe4ef76754e38821650a432b1bbdbe2cbb937",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eb5253501983ff5d290b2a8cba0dc70f15dfbcdebea908d692fa4eae18d79f87",
+				"dweb:/ipfs/QmeD3ry2UD5oz8MZwECtEN5xzquzsmz2NzB1MVwcDaHkeR"
+			]
+		}
+	},
+	"version": 1
+}
